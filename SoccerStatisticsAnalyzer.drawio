@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="39tNp8hj-cH9wJWJikPP">
+    <mxGraphModel dx="596" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Start: Main.java&lt;/font&gt;&lt;div&gt;Program entry point&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="460" x="60" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-2" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=8;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SzRA6K-qKmbFpI-HDns5-5" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="289.5" y="70" as="sourcePoint" />
+            <mxPoint x="290" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;CSV File Handler&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Reads player records from players.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="460" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Initialize application and load saved data" vertex="1">
+          <mxGeometry height="30" width="250" x="165" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-7" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=8;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="289.5" y="250" as="sourcePoint" />
+            <mxPoint x="290" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Loaded player records" vertex="1">
+          <mxGeometry height="30" width="250" x="165" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Main Menu&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Displays options and receives user input using Scanner&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="460" x="60" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-10" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=8;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="289.5" y="430" as="sourcePoint" />
+            <mxPoint x="290" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="User selects an operation" vertex="1">
+          <mxGeometry height="30" width="250" x="165" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Add Player&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Collect player information and add to ArrayList&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="60" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Search Players&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Find players by name or team&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="300" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Compare Players&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Compare goals, assists, appearances&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="60" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Rank Players&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Sort players by selected statistics&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="300" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-16" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=8;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="289.5" y="690" as="sourcePoint" />
+            <mxPoint x="290" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Operations access shared player records" vertex="1">
+          <mxGeometry height="30" width="250" x="165" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Player ArrayList&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Stores Player objects while the program runs&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="460" x="60" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-19" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=8;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="289.5" y="870" as="sourcePoint" />
+            <mxPoint x="290" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Save updated player information" vertex="1">
+          <mxGeometry height="30" width="250" x="165" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;players.csv&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Persistent storage of player records&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="460" x="60" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="SzRA6K-qKmbFpI-HDns5-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Return to Main Menu until user exits" vertex="1">
+          <mxGeometry height="30" width="250" x="165" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
